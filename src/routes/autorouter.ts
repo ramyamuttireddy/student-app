@@ -50,7 +50,7 @@ export const authRouter = new Elysia({ prefix: "auth" })
         }
 
       } catch (error) {
-        console.log("Error On Loging");
+        console.log("Error On Login");
       }
     },
     {

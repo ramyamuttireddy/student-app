@@ -25995,7 +25995,7 @@ var authRouter = new Elysia({ prefix: "auth" }).use(src_default({
       }
     };
   } catch (error4) {
-    console.log("Error On Loging");
+    console.log("Error On Login");
   }
 }, {
   body: t.Object({
